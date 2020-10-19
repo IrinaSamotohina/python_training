@@ -1,0 +1,12 @@
+CREATE USER 'user_1'@'localhost' IDENTIFIED BY 'password';
+
+GRANT ALL PRIVILEGES ON plan.* TO 'user_1'@'localhost';
+
+CREATE TABLE user_plan (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, data DATE, time VARCHAR(10), events VARCHAR(150))
+
+date
+time
+events
+
+user_1
+password
